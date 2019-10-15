@@ -13,8 +13,8 @@ const foodFactory = (foods) =>{
 console.log("foodFactory is being called")
 return `<div class="container"> 
 <h3>${foods.name}</h3>
-<h4>${foods.ethnicity}</h4>
-<h4>${foods.category}</h4>`
+<div>${foods.ethnicity}</div>
+<div>${foods.category}</div>`
 }
 
 fetch(url)

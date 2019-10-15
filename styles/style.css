@@ -2,11 +2,11 @@ html {
   background-color: dimgrey;
 }
 
-#food-container{
+#food-container {
   padding: 5px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .container {
@@ -16,7 +16,7 @@ justify-content: space-around;
   border: 1px maroon solid;
 }
 
-.h3{
-  padding: 5px;
-
-}
+.div {
+  display: flex;
+  align-items: flex-end;;
+ 
